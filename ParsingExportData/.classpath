@@ -6,7 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="/home/jvm/projects/JAVA_01/edu.duke.jar"/>
-	<classpathentry kind="lib" path="/home/jvm/projects/JAVA_01/apache-csv.jar"/>
+	<classpathentry kind="lib" path="/home/jvm/Projects/JAVA/apache-csv.jar"/>
+	<classpathentry kind="lib" path="/home/jvm/Projects/JAVA/edu.duke.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
