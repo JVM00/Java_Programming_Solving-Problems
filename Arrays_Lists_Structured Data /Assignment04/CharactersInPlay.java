@@ -73,8 +73,8 @@ public class CharactersInPlay {
 
     public void tester() {
         findAllCharacters();
-        System.out.println("Main characters with speaking parts between 2 and 1000:");
-        charactersWithNumParts(2, 1000);
+        System.out.println("Main characters with speaking parts between 10 and 15:");
+        charactersWithNumParts(10, 15);
         //charactersWithNumParts(10, 15);
         System.out.println("First 5 main characters with the most speaking parts:");
         printTopCharacters(5);
