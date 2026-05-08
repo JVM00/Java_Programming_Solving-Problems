@@ -1,12 +1,7 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all they need to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE: Assignment03 - Object-Oriented Caesar Cipher
+PURPOSE OF PROJECT: Implement Caesar cipher encryption and decryption with reusable classes that store their keys, including a one-key cipher and a two-key cipher.
+VERSION or DATE: 2026-05-08
+HOW TO START THIS PROJECT: Open the folder in BlueJ. Create TestCaesarCipher or TestCaesarCipherTwo objects and run their test methods, or instantiate CaesarCipher and CaesarCipherTwo directly with the desired keys.
+AUTHORS: JVM 
+USER INSTRUCTIONS: CaesarCipher encrypts and decrypts text using one key. CaesarCipherTwo alternates between two keys by character position. Both preserve letter case and leave non-letter characters unchanged.

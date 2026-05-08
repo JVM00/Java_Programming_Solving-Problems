@@ -1,12 +1,7 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all they need to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE: Assignment04 - Word Frequencies and Characters in Play
+PURPOSE OF PROJECT: Use ArrayList collections to count unique words in a text file and count how many speaking parts each character has in a play script.
+VERSION or DATE: 2026-05-08
+HOW TO START THIS PROJECT: Open the folder in BlueJ. Run WordFrequencies.tester() and choose a text file, or run CharactersInPlay.tester() and choose a play file.
+AUTHORS: JVM 
+USER INSTRUCTIONS: WordFrequencies converts words to lowercase, counts unique entries, and reports the most frequent word. CharactersInPlay treats text before a period as a speaker name, counts appearances, and can print characters with speaking-part counts in a selected range. Sample files include testwordfreqs.txt, macbethSmall.txt, and likeit.txt.
