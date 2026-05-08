@@ -8,7 +8,7 @@ Most projects come from Duke/Coursera-style Java programming exercises and are o
 
 - `Arrays_Lists_Structured Data /` - eight BlueJ assignments covering Caesar ciphers, word counts, ArrayList and HashMap practice, GladLib story generation, web log analysis, and Vigenere cipher breaking.
 - `Solving_Problems_With_Software/` - earlier Java exercises for strings, parsing CSV/export data, parsing weather data, perimeter calculations, baby-name data, debugging, and hello-world projects.
-- `Debugging/`, `ParsingExportData/`, `StringFirstAssignments/`, `StringsSecondAssignments/`, `StringsThirdAssignments/`, `hello_VS/`, and `hello_eclipse/` - standalone or IDE-generated project folders.
+- `ParsingExportData/`
 - `apache-csv.jar` and `edu.duke.jar` - supporting libraries used by several assignments.
 
 ## Requirements
