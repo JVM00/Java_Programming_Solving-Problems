@@ -1,12 +1,7 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all they need to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE: Assignment08 - Vigenere Cipher Breaker
+PURPOSE OF PROJECT: Encrypt and decrypt text with Caesar and Vigenere ciphers, then break Vigenere-encrypted messages by testing key lengths against language dictionaries.
+VERSION or DATE: 2026-05-08
+HOW TO START THIS PROJECT: Open the folder in BlueJ. Create a VigenereBreaker object and run breakVigenere(), then choose an encrypted message file when prompted. The program loads dictionaries from the dictionaries folder.
+AUTHORS: JVM 
+USER INSTRUCTIONS: VigenereCipher encrypts and decrypts using an array of Caesar keys. VigenereBreaker slices encrypted text by key position, estimates keys with CaesarCracker, counts dictionary words, and compares multiple languages to select the best decryption. Sample encrypted texts and known-key files include aida, athens, oslusiadas, and titus-small examples; additional secret messages are in the messages folder.
