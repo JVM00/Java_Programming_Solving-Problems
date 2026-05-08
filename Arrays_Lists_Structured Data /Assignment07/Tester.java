@@ -78,4 +78,50 @@ public class Tester
         LogAnalyzer la = new LogAnalyzer();
         System.out.println("Unique IPs with status 300-399: " + la.countUniqueIPsInRange("weblog1_log", 300, 399));
     }
+    
+    public void testCountVisitsPerIP() {
+        LogAnalyzer la = new LogAnalyzer();
+        la.readFile("weblog3-short_log");
+        HashMap<String, Integer> counts = la.countVisitsPerIP();
+        System.out.println(counts);
+    }
+    
+    public void testMostNumberVisitsByIP() {
+        LogAnalyzer la = new LogAnalyzer();
+        la.readFile("weblog3-short_log");
+        HashMap<String, Integer> counts = la.countVisitsPerIP();
+        int maxVisits = la.mostNumberVisitsByIP(counts);
+        System.out.println("Most visits by one IP: " + maxVisits);
+    }
+    
+    public void testIPsMostVisits() {
+        LogAnalyzer la = new LogAnalyzer();
+        la.readFile("weblog3-short_log");
+        HashMap<String, Integer> counts = la.countVisitsPerIP();
+        ArrayList<String> ips = la.iPsMostVisits(counts);
+        System.out.println("IPs with most visits: " + ips);
+    }
+    
+    public void testIPsForDays() {
+        LogAnalyzer la = new LogAnalyzer();
+        la.readFile("weblog3-short_log");
+        HashMap<String, ArrayList<String>> ipsByDay = la.iPsForDays();
+        System.out.println(ipsByDay);
+    }
+    
+    public void testDayWithMostIPVisits() {
+        LogAnalyzer la = new LogAnalyzer();
+        la.readFile("weblog3-short_log");
+        HashMap<String, ArrayList<String>> ipsByDay = la.iPsForDays();
+        String day = la.dayWithMostIPVisits(ipsByDay);
+        System.out.println("Day with most IP visits: " + day);
+    }
+    
+    public void testIPsWithMostVisitsOnDay() {
+        LogAnalyzer la = new LogAnalyzer();
+        la.readFile("weblog3-short_log");
+        HashMap<String, ArrayList<String>> ipsByDay = la.iPsForDays();
+        ArrayList<String> ips = la.iPsWithMostVisitsOnDay(ipsByDay, "Sep 30");
+        System.out.println("IPs with most visits on Sep 30: " + ips);
+    }
 }
